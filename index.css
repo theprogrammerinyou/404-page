@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+  margin: 10px;
+}
+
+.container {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+.title-text {
+  max-width: 700px;
+  width: 100%;
+  font-size: 64px;
+  line-height: 94px;
+  font-weight: 700;
+  color: #333333;
+  margin: 3rem 0px;
+}
+
+.para-text {
+  max-width: 400px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 34px;
+  color: #4f4f4f;
+  margin-bottom: 4rem;
+}
+
+.back-btn {
+  padding: 1rem;
+  border: none;
+  text-transform: uppercase;
+  background: #333;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 560px) and (max-width: 830px) {
+  .container {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+  }
+
+  .img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  body {
+    text-align: left;
+  }
+  .container {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+  }
+
+  .img {
+    height: 400px;
+  }
+}
